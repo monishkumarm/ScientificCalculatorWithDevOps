@@ -8,7 +8,7 @@ public class TestCalculator {
     @Test
     public void SQrootTruePositive(){
         assertEquals("Finding square root for True Positive", 2, Calculator.SquareRoot(4), DELTA);
-        assertEquals("Finding square root for True Positive", 4, Calculator.SquareRoot(16), DELTA);
+        assertEquals("Finding square root for True Positive", 3, Calculator.SquareRoot(9), DELTA);
     }
 
     @Test
