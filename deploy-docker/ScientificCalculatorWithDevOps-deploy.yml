@@ -1,5 +1,6 @@
 ---
 - name: Pull docker image of scientificcalculatorwithdevops
+  ansible_python_interpreter: /usr/bin/python3
   hosts: all
   tasks:
     - name: Pull image
